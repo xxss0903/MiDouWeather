@@ -1,0 +1,44 @@
+//
+//  MacroPch.pch
+//  MiDouWeather
+//
+//  Created by j on 16/5/8.
+//  Copyright © 2016年 j. All rights reserved.
+//  网络连接宏
+
+#ifndef MacroPch_pch
+#define MacroPch_pch
+
+/*------------------------------------------------------------------------------*/
+// 查询可用城市列表
+#define kCityList @"http://apis.baidu.com/apistore/weatherservice/citylist"
+//  天气查询_带历史7天和未
+#define kRecentWeathers @"http://apis.baidu.com/apistore/weatherservice/recentweathers"
+// 天气查询_根据城市拼音
+#define kWeather @"http://apis.baidu.com/apistore/weatherservice/weather"
+//  天气查询_根据城市名称
+#define kCityName @"http://apis.baidu.com/apistore/weatherservice/cityname"
+// 城市信息列表
+#define kCityInfo @"http://apis.baidu.com/apistore/weatherservice/cityinfo"
+// 天气查询_根据城市代码
+#define kCityId @"http://apis.baidu.com/apistore/weatherservice/cityid"
+
+#define kApiKey @"63c25d0e66f59da6c22bbd578dc8b19f"
+
+/*------------------------------------------------------------------------------*/
+// 登录
+#define kDBLogin @"http://www.douban.com/j/app/login"
+// 频道
+#define kDBChannel @"http://www.douban.com/j/app/radio/channels"
+// 歌曲列表
+#define kDBSongList @"http://www.douban.com/j/app/radio/people"
+// 歌词
+#define kDBLyric @"http://api.douban.com/v2/fm/lyric"
+
+/*------------------------------------------------------------------------------*/
+#define SCREENSIZE [UIScreen mainScreen].bounds.size
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* MacroPch_pch */
